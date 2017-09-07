@@ -1,0 +1,18 @@
+Database Name=db_demo
+Two Tables In the Database
+1.tbl_city
+2.tbl_user
+
+
+1.tbl_city structure
+ctid int,ctname varchar(50)
+
+ctid is primary key and set to auto increment
+
+
+2.tbl_user structure
+uid int,uname varchar(50),email varchar(50),pass varchar(50),gender varchar(10),hobby varchar(50),city int,address varchar(100)
+
+uid is primary key and set to auto increment
+
+city int is foreign key
